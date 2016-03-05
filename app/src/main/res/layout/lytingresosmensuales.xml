@@ -12,7 +12,26 @@
         android:id="@+id/rlvIngresosInterno"
         android:background="@color/colorGris"
         >
-
+        <EditText
+            android:id="@+id/etSueldoNeto"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/HintSueldoNeto"
+            android:textColor="@color/colorblanco"
+            android:textColorHighlight="@color/colorblanco"
+            android:layout_marginTop="@dimen/margenEstandar"
+            android:layout_marginRight="@dimen/margenEstandar"
+            android:layout_marginLeft="@dimen/margenEstandar"/>
+        <TextView
+            android:id="@+id/tvSueldoNeto"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginRight="@dimen/margenEstandar"
+            android:layout_marginLeft="@dimen/margenEstandar"
+            android:text="@string/txtSaldoNeto"
+            android:textColor="@color/colorblanco"
+            android:layout_below="@+id/etSueldoNeto"
+            />
         <EditText
             android:id="@+id/etIngresos"
             android:layout_width="match_parent"
@@ -20,9 +39,9 @@
             android:hint="@string/HintIngresos"
             android:textColor="@color/colorblanco"
             android:textColorHighlight="@color/colorblanco"
-            android:layout_marginTop="@dimen/margenEstandar"
             android:layout_marginRight="@dimen/margenEstandar"
-            android:layout_marginLeft="@dimen/margenEstandar"/>
+            android:layout_marginLeft="@dimen/margenEstandar"
+            android:layout_below="@+id/tvSueldoNeto"/>
         <TextView
             android:id="@+id/tvIngresos"
             android:layout_width="match_parent"
@@ -36,7 +55,7 @@
 
         <Spinner
             android:id="@+id/spMoneda"
-            android:layout_width="60dp"
+            android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_below="@id/tvIngresos"
             android:layout_marginRight="@dimen/margenEstandar"
@@ -49,12 +68,21 @@
             android:layout_height="30dp"
             android:layout_marginRight="@dimen/margenEstandar"
             android:layout_marginLeft="@dimen/margenEstandar"
-            android:text="@string/txtIngresos"
+            android:text="@string/txtMoneda"
             android:textColor="@color/colorblanco"
             android:layout_below="@+id/spMoneda"
             />
 
-
+        <Button
+            android:id="@+id/btnGrabar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvMoneda"
+            android:text="@string/btnGrabar"
+            android:layout_marginRight="@dimen/margenEstandar"
+            android:layout_marginLeft="@dimen/margenEstandar"
+            android:background="@color/colorAzulClaro"
+            />
 
     </RelativeLayout>
 

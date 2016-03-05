@@ -11,5 +11,9 @@
     <string name ="TituloAjustes">Ajustes</string>
     <string name="action_settings">Settings</string>
     <string name="HintIngresos">Ingrese sus ingresos mensuales</string>
-    <string name="txtIngresos">Ingresos mensuales</string>
+    <string name="HintSueldoNeto">Ingrese su sueldo neto</string>
+    <string name="txtIngresos">Otros Ingresos</string>
+    <string name="txtMoneda">Moneda</string>
+    <string name="txtSaldoNeto">Sueldo Neto</string>
+    <string name="btnGrabar">Grabar</string>
 </resources>
