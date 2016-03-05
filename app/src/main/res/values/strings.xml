@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AM_AG</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name ="NombreEmppresa">AMejia - AGrajales</string>
+    <string name ="NombreApp">Am - Ag Solutions</string>
+    <string name ="TituloCaptura">Captura</string>
+    <string name ="TituloReporte">Reportes</string>
+    <string name ="TituloConfiguracion">Configuración</string>
+    <string name ="TituloAjustes">Ajustes</string>
+    <string name="action_settings">Settings</string>
+    <string name="HintIngresos">Ingrese sus ingresos mensuales</string>
+    <string name="txtIngresos">Ingresos mensuales</string>
+</resources>

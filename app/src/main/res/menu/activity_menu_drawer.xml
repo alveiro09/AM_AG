@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Captura"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/TituloCaptura" />
+        <item
+            android:id="@+id/Reportes"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/TituloReporte" />
+
+    </group>
+
+    <item android:title="@string/TituloAjustes">
+        <menu>
+            <item
+                android:id="@+id/Configuracion"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/TituloConfiguracion" />
+        </menu>
+    </item>
+
+</menu>

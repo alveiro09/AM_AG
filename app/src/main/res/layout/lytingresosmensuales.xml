@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAzulClaro"
+    android:id="@+id/rlvIngresosExterno"  >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rlvIngresosInterno"
+        android:background="@color/colorGris"
+        >
+
+        <EditText
+            android:id="@+id/etIngresos"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/HintIngresos"
+            android:textColor="@color/colorblanco"
+            android:textColorHighlight="@color/colorblanco"
+            android:layout_marginTop="@dimen/margenEstandar"
+            android:layout_marginRight="@dimen/margenEstandar"
+            android:layout_marginLeft="@dimen/margenEstandar"/>
+        <TextView
+            android:id="@+id/tvIngresos"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginRight="@dimen/margenEstandar"
+            android:layout_marginLeft="@dimen/margenEstandar"
+            android:text="@string/txtIngresos"
+            android:textColor="@color/colorblanco"
+            android:layout_below="@+id/etIngresos"
+            />
+
+        <Spinner
+            android:id="@+id/spMoneda"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/tvIngresos"
+            android:layout_marginRight="@dimen/margenEstandar"
+            android:layout_marginLeft="@dimen/margenEstandar">
+        </Spinner>
+
+        <TextView
+            android:id="@+id/tvMoneda"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginRight="@dimen/margenEstandar"
+            android:layout_marginLeft="@dimen/margenEstandar"
+            android:text="@string/txtIngresos"
+            android:textColor="@color/colorblanco"
+            android:layout_below="@+id/spMoneda"
+            />
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
